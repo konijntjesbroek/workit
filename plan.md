@@ -1,14 +1,19 @@
 ## Workit
+
 _created by:_ Arlo Gittings  
 _created on:_ 2021-07-11  
 ----
+
 ### Description:
+
 A simple daily task manager. The key is to make it useful and powerful while
 minimizing required effort in the flow of daily events. It may take a bit to
 set up initially and will provide tracking data for evaluation on a regular
 basis. The first version will be all text driven. As I get deeper into testing,
 I will look at the possibility of adding graphs. 
+
 ### Project layout
+
 - database driven (mongo)
 - key features
 	- auto-populate regular tasks
@@ -27,7 +32,9 @@ I will look at the possibility of adding graphs.
 	- editable in post
 		- might forget to put in an activity.
 		- handle overlap intelligently.
+
 ### Sucess Identifiers
+
 - Phase One 
 	- create a task class
 	- layout the db model documents
