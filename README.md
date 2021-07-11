@@ -1,8 +1,9 @@
 ## WorkIt
 
-_created by:_ Arlo Gittings
+_created by:_ Arlo Gittings  
 _created on:_ 2021-07-11
 
+--
 ### Overview
 
 I have been dissatisfied with most of the task list applications I have used
