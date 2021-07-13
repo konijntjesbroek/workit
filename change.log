@@ -3,3 +3,5 @@
 		   1705 Created README.md
 		   1713 Added GPLv3
 		   1726 fixing formatting in the markdown
+2021-07-12 1942 Created workit.py
+                Defined Task_List class
