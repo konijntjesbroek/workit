@@ -1,0 +1,8 @@
+act_id, act_name, category, flags, intervals
+0, morning ritual, health, comp, ""
+1, checking messages, social, , ""
+2, watch videos, relax, , ""
+3, log food, health,  , ""
+4, write in journal, spirit, , ""
+5, eat, health, , ""
+

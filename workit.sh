@@ -14,8 +14,15 @@ today=`date +%Y/%m/%d`
 file="tasks.csv"
 fq_file=${base_dir}/${today}/${file}
 
+function makedailies(){
+	mkdir -p ${base_dir}/${today}
+	for template in `ls ${base_dir}/templates`;do
+		cp ${base_dir}/templates/${file} ${fq_file}
+	done
+}
+
 if [ ! -d ${base_dir}/${today} ]; then
-    echo "something's hinkey"
+  	makedailies  
 else
     if [ ! -e ${fq_file} ];then
 		cp ${base_dir}/templates/${file} ${fq_file}

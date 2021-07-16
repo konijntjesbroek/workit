@@ -6,3 +6,5 @@
 2021-07-12 1942 Created workit.py
                 Defined Task_List class
 2021-07-15 2017 Created a placeholder workit.sh
+           2038 Added makedailies function
+                Created templates

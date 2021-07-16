@@ -1,0 +1,3 @@
+id, time, name, servings, calories, fat, carbohydrates, protien, minerals, vitamins
+# fat, carb, protien are in grams
+# all values are per serving
