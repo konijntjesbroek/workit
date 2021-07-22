@@ -17,7 +17,7 @@ fq_file=${base_dir}/${today}/${file}
 function makedailies(){
 	mkdir -p ${base_dir}/${today}
 	for template in `ls ${base_dir}/templates`;do
-		cp ${base_dir}/templates/${file} ${fq_file}
+		cp ${base_dir}/templates/${template} ${base_dir}/${today}/${template}
 	done
 }
 
@@ -30,4 +30,3 @@ else
 fi
 
 /usr/bin/nvim  $fq_file
-
