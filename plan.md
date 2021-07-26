@@ -36,7 +36,6 @@ I will look at the possibility of adding graphs.
 
 - Phase One 
 	- create a task class
-	- layout the db model documents
 	- create command structure
 - Phase Two
 	- display existing tasks
